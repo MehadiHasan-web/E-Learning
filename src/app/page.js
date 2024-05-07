@@ -4,7 +4,9 @@ import Button from '@mui/material/Button';
 export default function Home() {
   return (
     <main>
-      <Button variant="contained">Hello world</Button>
+      {/* find our course section start */}
+      <div className="container"></div>
+      {/* find our course section end */}
     </main>
   );
 }
