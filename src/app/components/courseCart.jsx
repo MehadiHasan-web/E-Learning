@@ -25,7 +25,18 @@ const CourseCart = () => {
           {/* title section start */}
           <h4 className='xl:text-xl font-semibold'>Expand your career opportunities with Python</h4>
           {/* title section end */}
-          {/*  */}
+          {/* list section start */}
+          <ul>
+            <li>
+              {/* icon section start */}
+              
+              {/* icon section end */}
+              {/* name section start */}
+              <span>10 Lessons</span>
+              {/* name section edn */}
+            </li>
+          </ul>
+          {/* list section end */}
         </div>
         {/* content section end */}
         <div>
