@@ -16,6 +16,7 @@ const Navbar = () => {
           <ul className='flex items-center gap-8'>
             <li className='2xl:text-lg'><Link href="/">Home</Link></li>
             <li className='2xl:text-lg'><Link href="/">About</Link></li>
+            <li className='2xl:text-lg'><Link href="/dashboard">Dashboard</Link></li>
             <li className='2xl:text-lg'><Link href="/">Courses</Link></li>
             <li className='2xl:text-lg'><Link href="/">Contact</Link></li>
           </ul>
