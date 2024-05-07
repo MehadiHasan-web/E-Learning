@@ -13,7 +13,7 @@ export default function Home() {
         </div>
         {/* title section end */}
         {/* courseCart section start */}
-        <div className="grid grid-cols-3 gap-10">
+        <div className="grid grid-cols-3 gap-10 my-10">
         <CourseCart></CourseCart>
         <CourseCart></CourseCart>
         <CourseCart></CourseCart>

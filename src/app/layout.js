@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
         <Navbar></Navbar>
         {/* navbar section end */}
         {/* body section start */}
-        <div className="h-screen">
+        <div>
         {children}
         </div>
         {/* body section end */}
