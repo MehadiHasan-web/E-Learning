@@ -14,7 +14,7 @@ const DashHome = () => {
   return (
     <div className='lg:flex lg:justify-between lg:items-center gap-4'>
       {/* left section start */}
-      <div className='w-full hidden lg:w-[70%]'>
+      <div className='w-full lg:w-[70%]'>
         {/* top section start */}
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 gap-5 sm:gap-5 md:gap-5 lg:gap-3 p-3 sm:p-5 md:p-4 lg:p-5 xl:gap-5 2xl:gap-5'>
           <Course></Course>

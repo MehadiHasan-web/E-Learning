@@ -9,7 +9,7 @@ const CourseCart = () => {
   return (
     <div className='relative'>
       {/* cart content section start */}
-      <div className='bg-white shadow-2xl rounded-2xl'>
+      <div className='bg-white shadow-2xl rounded-2xl z-10'>
           {/* image section start */}
           <div className='h-full md:h-50% w-full relative'>
             <Image src={learningImg} alt="learning image" className='rounded-t-3xl'></Image>
@@ -63,6 +63,7 @@ const CourseCart = () => {
         {/* content section end */}
       </div>
       {/* cart content section end */}
+      <div className='absolute -bottom-3 w-[95%] h-full bg-black -z-10 rounded-xl '></div>
     </div>
   );
 };

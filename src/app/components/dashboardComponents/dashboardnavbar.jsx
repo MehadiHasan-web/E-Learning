@@ -7,7 +7,7 @@ import BakeryDiningIcon from '@mui/icons-material/BakeryDining';
 
 const DashboardNavbar = () => {
   return (
-    <div className='hidden h-20 flex items-center w-full'>
+    <div className=' h-20 flex items-center w-full'>
       {/* content section start */}
       <div className='flex justify-between items-center w-full'>
         {/* name section start */}

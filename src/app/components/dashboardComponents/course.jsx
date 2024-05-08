@@ -36,7 +36,7 @@ const Course = () => {
           <Avatar alt="Agnes Walker" src="/static/images/avatar/4.jpg" />
           <Avatar alt="Trevor Henderson" src="/static/images/avatar/5.jpg" />
         </AvatarGroup>
-          <ul className="flex items-center gap-2 text-white rounded-lg px-2 py-1 bg-[#a9acac]">
+          <ul className="flex items-center gap-2 text-white rounded-lg px-2 py-1 bg-[#4c5f5e]">
             <li>
               <AutoStoriesOutlinedIcon className="text-xs sm:text-sm md:text-lg lg:text-sm xl:text-sm 2xl:text-xl"></AutoStoriesOutlinedIcon>
             </li>
