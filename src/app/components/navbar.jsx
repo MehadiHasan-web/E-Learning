@@ -5,7 +5,7 @@ import { Button } from '@mui/material';
 
 const Navbar = () => {
   return (
-    <div className='bg-slate-100'>
+    <div className='bg-slate-100 hidden'>
       {/* navbar section start */}
       <div className='container mx-auto px-20 py-5'>
         <div className='flex justify-between items-center'>

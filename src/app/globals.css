@@ -2,3 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+/* .linearColor{
+  background-image: linear-gradient(to top right, #3B82F6 3%, #10B981 97%, #F87171);
+} */
+.linearColor{
+  background-image: linear-gradient(20deg, #2B405d 25%, #0D3431 75%, #3F593E );
+}
