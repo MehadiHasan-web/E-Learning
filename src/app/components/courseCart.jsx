@@ -63,7 +63,7 @@ const CourseCart = () => {
         {/* content section end */}
       </div>
       {/* cart content section end */}
-      <div className='absolute -bottom-3 w-[95%] h-full bg-black -z-10 rounded-xl '></div>
+      <div className='absolute -bottom-2 w-[92%] h-full -z-10 rounded-xl left-0 right-0  mx-auto bg-slate-200 shadow-xl'></div>
     </div>
   );
 };
