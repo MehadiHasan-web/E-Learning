@@ -1,6 +1,8 @@
-import Image from "next/image";
-import Button from '@mui/material/Button';
+
 import CourseCart from "./components/courseCart";
+import Resource from "./components/resource";
+
+
 
 export default function Home() {
   return (
@@ -21,10 +23,14 @@ export default function Home() {
           <CourseCart></CourseCart>
           <CourseCart></CourseCart>
         </div>
-        
         {/* courseCart section end */}
       </div>
       {/* find our course section end */}
+      {/* resourceform section start */}
+      <div className="my-10">
+        <Resource></Resource>
+      </div>
+      {/* resourceform section end */}
     </main>
   );
 }
