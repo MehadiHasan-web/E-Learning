@@ -9,31 +9,31 @@ const Calender = () => {
       <div className=''>
         {/* day section start */}
         <ul className='flex justify-around items-center h-16 sm:h-20 md:h-24 lg:h-20 xl:h-16 2xl:h-20 px-2'>
-          <li className='hover:bg-pink-500 text-gray-400 hover:text-black border-[1px] border-gray-600 py-2 px-1 rounded-2xl text-center'>
+          <li className='hover:bg-pink-500 text-gray-400 hover:text-black border-[1px] border-gray-600 py-2 px-1 xl:p-2 rounded-2xl text-center'>
             <p className=' text-xs sm:text-sm md:text-base lg:text-xs xl:text-xs 2xl:text-sm'>S</p>
             <p className=' text-xs sm:text-sm md:text-base lg:text-xs xl:text-xs 2xl:text-sm'>07</p>
           </li>
-          <li className='hover:bg-pink-500 text-gray-400 hover:text-black border-[1px] border-gray-600 py-2 px-1 rounded-2xl text-center'>
+          <li className='hover:bg-pink-500 text-gray-400 hover:text-black border-[1px] border-gray-600 py-2 px-1 xl:p-2 rounded-2xl text-center'>
             <p className='text-xs sm:text-sm md:text-base lg:text-xs xl:text-xs 2xl:text-sm'>M</p>
             <p className='text-xs sm:text-sm md:text-base lg:text-xs xl:text-xs 2xl:text-sm'>07</p>
           </li>
-          <li className='hover:bg-pink-500 text-gray-400 hover:text-black border-[1px] border-gray-600 py-2 px-1 rounded-2xl text-center'>
+          <li className='hover:bg-pink-500 text-gray-400 hover:text-black border-[1px] border-gray-600 py-2 px-1 xl:p-2 rounded-2xl text-center'>
             <p className='text-xs sm:text-sm md:text-base lg:text-xs xl:text-xs 2xl:text-sm'>T</p>
             <p className='text-xs sm:text-sm md:text-base lg:text-xs xl:text-xs 2xl:text-sm'>07</p>
           </li>
-          <li className='hover:bg-pink-500 text-gray-400 hover:text-black border-[1px] border-gray-600 py-2 px-1 rounded-2xl text-center'>
+          <li className='hover:bg-pink-500 text-gray-400 hover:text-black border-[1px] border-gray-600 py-2 px-1 xl:p-2 rounded-2xl text-center'>
             <p className='text-xs sm:text-sm md:text-base lg:text-xs xl:text-xs 2xl:text-sm'>W</p>
             <p className='text-xs sm:text-sm md:text-base lg:text-xs xl:text-xs 2xl:text-sm'>07</p>
           </li>
-          <li className='hover:bg-pink-500 text-gray-400 hover:text-black border-[1px] border-gray-600 py-2 px-1 rounded-2xl text-center'>
+          <li className='hover:bg-pink-500 text-gray-400 hover:text-black border-[1px] border-gray-600 py-2 px-1 xl:p-2 rounded-2xl text-center'>
             <p className='text-xs sm:text-sm md:text-base lg:text-xs xl:text-xs 2xl:text-sm'>T</p>
             <p className='text-xs sm:text-sm md:text-base lg:text-xs xl:text-xs 2xl:text-sm'>07</p>
           </li>
-          <li className='hover:bg-pink-500 text-gray-400 hover:text-black border-[1px] border-gray-600 py-2 px-1 rounded-2xl text-center'>
+          <li className='hover:bg-pink-500 text-gray-400 hover:text-black border-[1px] border-gray-600 py-2 px-1 xl:p-2 rounded-2xl text-center'>
             <p className='text-xs sm:text-sm md:text-base lg:text-xs xl:text-xs 2xl:text-sm'>F</p>
             <p className='text-xs sm:text-sm md:text-base lg:text-xs xl:text-xs 2xl:text-sm'>07</p>
           </li>
-          <li className='hover:bg-pink-500 text-gray-400 hover:text-black border-[1px] border-gray-600 py-2 px-1 rounded-2xl text-center'>
+          <li className='hover:bg-pink-500 text-gray-400 hover:text-black border-[1px] border-gray-600 py-2 px-1 sm:px-2 md:p-x1 lg:px-1 xl:p-2 rounded-2xl text-center'>
             <p className='text-xs sm:text-sm md:text-base lg:text-xs xl:text-xs 2xl:text-sm'>S</p>
             <p className='text-xs sm:text-sm md:text-base lg:text-xs xl:text-xs 2xl:text-sm'>07</p>
           </li>
