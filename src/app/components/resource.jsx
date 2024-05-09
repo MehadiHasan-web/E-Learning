@@ -5,7 +5,7 @@ const Resource = () => {
   return (
     <div className=''>
       {/* content section start */}
-      <div className='bg-slate-100'>
+      <div className='bg-[#fff6f4]'>
         <div className='container mx-auto p-5 lg:px-12 xl:px-10 xl:pt-14 '>
           <div className='md:flex md:justify-center md:items-center xl:px-10'>
             {/* content section start */}

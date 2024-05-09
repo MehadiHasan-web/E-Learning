@@ -3,10 +3,11 @@ import logo from "../../../public/logo.svg";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import GoogleIcon from "@mui/icons-material/Google";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import knowledge from '../../../public/footer/knowledge.png'
 
 const Footer = () => {
   return (
-    <div className="px-3 py-2 bg-slate-100">
+    <div className="px-3 py-2 bg-[#fff6f4] relative">
       {/* content section start */}
       <div className="container mx-auto  md:px-10 xl:py-10 xl:px-20 ">
         {/* item section start */}
@@ -23,10 +24,10 @@ const Footer = () => {
                 <TwitterIcon className="text-lg sm:text-xl md:text-xl lg:text-sm xl:text-lg 2xl:text-xl"></TwitterIcon>
               </li>
               <li className="border-[1px] border-black rounded-full  hover:bg-orange-600 hover:text-white hover:border-orange-600 flex justify-center items-center p-1">
-                <TwitterIcon className="text-lg sm:text-xl md:text-xl lg:text-sm xl:text-lg 2xl:text-xl"></TwitterIcon>
+                <GoogleIcon className="text-lg sm:text-xl md:text-xl lg:text-sm xl:text-lg 2xl:text-xl"></GoogleIcon>
               </li>
               <li className="border-[1px] border-black rounded-full  hover:bg-orange-600 hover:text-white hover:border-orange-600 flex justify-center items-center p-1">
-                <TwitterIcon className="text-lg sm:text-xl md:text-xl lg:text-sm xl:text-lg 2xl:text-xl"></TwitterIcon>
+                <InstagramIcon className="text-lg sm:text-xl md:text-xl lg:text-sm xl:text-lg 2xl:text-xl"></InstagramIcon>
               </li>
             </ul>
           </div>
@@ -75,13 +76,14 @@ const Footer = () => {
         <hr className="w-full"></hr>
         {/* hr section end */}
         {/* copyright section start */}
-        <p className="text-xs sm:text-sm md:text-base xl:text-base 2xl:text-lg text-center mt-6">
+        <p className="text-xs sm:text-sm md:text-base xl:text-base 2xl:text-lg text-center mt-10">
           Copyright © 2024 <span className="text-blue-500">Learen</span> All
           rights reserved
         </p>
         {/* copyright section end */}
       </div>
       {/* content section end */}
+      <Image className="hidden md:block absolute -top-6 -bottom-5 left-0 h-[100%] w-[25%]" alt="image" src={knowledge}></Image>
     </div>
   );
 };
