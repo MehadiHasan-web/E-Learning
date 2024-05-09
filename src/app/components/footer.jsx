@@ -13,7 +13,7 @@ const Footer = () => {
         {/* item section start */}
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 2xl:grid-cols-5 gap-3 sm:gap-5 md:gap-5 lg:gap-3 py-5">
           {/* item1 start */}
-          <div className="">
+          <div className="z-20">
             <Image
               src={logo}
               alt="this is footer logo"
@@ -83,7 +83,7 @@ const Footer = () => {
         {/* copyright section end */}
       </div>
       {/* content section end */}
-      <Image className="hidden md:block absolute -top-6 -bottom-5 left-0 h-[100%] w-[25%]" alt="image" src={knowledge}></Image>
+      <Image className="hidden md:block absolute -top-6 -bottom-5 left-0 h-[100%] w-[25%] z-10" alt="image" src={knowledge}></Image>
     </div>
   );
 };
